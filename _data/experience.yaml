@@ -1,6 +1,6 @@
 experiences:
 
-- place: "Stanford"
+- place: "Stanford university"
   time: "2020 - now"
   title: "Postdoc"
   subtitle: "MS&E"
@@ -42,14 +42,32 @@ experiences:
   subtitle: "Masters in Data Mining and Knowledge Management <br/> Year 1: University Pierre et Marie Curie <br/> Year 2: Universitat Politecnica de Catalunya <br/>"
   category: "school"
 
-- place: "Jozef Stefan Institute"
-  time: "Jan-Aug 2011"
+- place: "Canary Center at Stanford for Cancer Early Detection"
+  time: "2016-2018"
   title: "Research Assistant"
-  subtitle: "Department of Knowledge Technologies"
+  subtitle: "Department of Radiology, Stanford University School of Medicine"
+  category: "work"
+  
+  - place: "Strand Life Sciences"
+  time: "Sep 2011 – Aug 2013"
+  title: "Bioinformatics Intern"
+  subtitle: "Rare variant identification"
+  category: "work"
+  
+   - place: "Strand Life Sciences"
+  time: "Sep 2011 – Aug 2013"
+  title: "Bioengineering Intern, Glowing Plant Project"
+  subtitle: "Transient transfection wet-lab work"
+  category: "work"
+  
+  - place: "Lawrence Berkeley National Lab"
+  time: "Sep 2011 – Aug 2013"
+  title: "Undergraduate Research Assistant"
+  subtitle: "Biophysics and structural biology of DNA repair enzymes"
   category: "work"
 
-- place: "Staffordshire University"
-  time: "2007 - 2010"
-  title: "B.Sc. Student"
-  subtitle: "Computing Science <br/> First Class Honours"
+- place: "University of California, Berkeley"
+  time: "2012 - 2016"
+  title: "B.A. Student"
+  subtitle: "Applied Mathematics <br/> Minor in Bioengineering"
   category: "school"
