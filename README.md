@@ -3,7 +3,7 @@
 ## Acknowledgements
 Much of this website was adapted from Martin Saveski's fantastic website: https://github.com/msaveski/www_personal
 
-## Updates guide
+## Updates guide (provided by Martin)
 Change one of the files in `_data`, unless you are changing the look of the website.
 
 Test changes with:
