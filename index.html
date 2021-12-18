@@ -10,22 +10,24 @@ title: Home
   <p>
 
   <p>
-  My research broadly aims to better our understanding of spatial systems and their "key actors" that distinguish them from one another. 
-
-  through the lenses of computer vision, spatial statistics, and graph representation learning.
-
-  Specifically, my thesis work develops novel machine learning and interpretability methods for multi-scale salient object detection (SOD) in multiplexed and megapixel images. 
-
+  My research broadly aims to better our understanding of spatial systems and the key actors that distinguish such systems from one another. My thesis work in computer vision aims to extract human-interpretable, differentially expressed salient objects captured in high-resolution megapixel images. Rooted in the paradigm of <b>weak supervision</b> and ideas of <b>model transparency</b>, my methods and applications work sit squarely in the eXplainable Artificial Intelligence (XAI) and Interpretable Machine Learning (IML) research communities. Some specific topics of interest are:
     <dl style="PADDING-LEFT: 40px">
-    <dt><b>Long-tail behavior</b></dt> <dd>How can we ensure that a machine learning system won't fail catastrophically in the wild under changing conditions?</dd>
-    <dt><b>Understanding</b></dt>
-    <dd>A system which <i> understands </i> how to answer questions or generate text should also do so robustly out-of-domain. </dd>
-    <dt><b>Fairness</b></dt>  <dd>Machine learning systems which rely on unreliable correlations can result in spurious and harmful predictions.</dd>
+    <dt><b>weakly supervised Salient Object Detection (wsSOD)</b></dt> 
+    <dd>Can image classifiers identify truly salient objects that are human-interpretable and differentially expressed? For deployment in human-centered applications, evaluation can't just be about accurate classification. Are some architectures inherently better at performing well in wsSOD and classification alike? </dd>
+    <dt><b>Model robustness under weak supervision</b></dt>
+    <dd>When predictive models are only given weak or coarse labels during training, how weak is too weak? Are some architectures more robust at classification and detecting salient objects? </dd>
+    <dt><b>Multi-task Auxiliary Learning</b></dt>
+    <dd>Maybe we can bypass the constraints of weak supervision to learn more holistic representations of images. We hypothesize that megapixel image classifiers that take spatial context into account should perform better at wsSOD and classification alike. </dd>
+    </dl>
     </dl>
   </p>
 
+  <p>
+    <b>Primary applications seek to improve cancer prognostics</b> by identifying histomorphological biomarkers of cancer progression in the tumor microenvironment through the use of highly multiplexed immunofluorescence tissue microscopy images (>30 image channels). In collaboration with Prof. Pascal Geldsetzer (Medicine), <b>secondary applications focus on global health monitoring</b> by predicting maternal and child health (MCH) outcomes of Earth’s remote villages through the use of hyperspectral satellite imagery, government surveys, and other geotagging and remote sensing data. In such application domains, classifier interpretability is both necessary and enters a new frontier in explanation mapping due to the increased channel dimensionality of multiplexed images.
+  </p>
+
   <p> 
-  Before coming to Stanford for graduate training, I spent two years working as a Bioinformatics Research Assistant for Prof. Mallick. In 2016, I completed my B.A. in Applied Mathematics with a minor in Bioengineering. Throughout my studies, I spent several summers interning in industrial and academic labs alike, including Lawrence Berkeley National Lab, Berkeley BioLabs, Strand Life Sciences, and Strateos (formerly Transcriptic).
+    Before coming to Stanford for graduate training, I spent two years working as a Bioinformatics Research Assistant for Prof. Mallick. In 2016, I completed my B.A. in Applied Mathematics (and a minor in Bioengineering) at University of California, Berkeley. Throughout my studies, I spent several summers interning in industrial and academic labs alike, including Lawrence Berkeley National Lab, Berkeley BioLabs, Strand Life Sciences, and Strateos (formerly Transcriptic). Outside of research, I am passionate about teaching and mentoring and furthering diversity, equity, and inclusion (DEI) in academia.
   </p>
 </div>
 
@@ -212,24 +214,6 @@ title: Home
 
 
 <div class="docs-section" id="template">
-    <h4>Website Design</h4>
-    Since I made this website, many people have found this Jekyll template useful
-    <a href="https://people.csail.mit.edu/davidam/" target="_blank">[1</a>,
-    <a href="https://thashim.github.io/" target="_blank">2</a>,
-    <a href="https://pauljwright.github.io/" target="_blank">3</a>,
-    <a href="https://bayesianbrad.github.io/" target="_blank">4</a>,
-    <a href="https://ahxt.github.io/" target="_blank">5</a>,
-    <a href="https://people.csail.mit.edu/chang87/" target="_blank">6</a>,
-    <a href="https://dinacmistry.github.io/" target="_blank">7</a>,
-    <a href="https://stanniszhou.github.io/" target="_blank">8</a>,
-    <a href="http://binghongchen.net/" target="_blank">9</a>,
-    <a href="https://jirvin16.github.io/" target="_blank">10</a>,
-    <a href="https://mengliu1998.github.io/" target="_blank">11</a>].
-    <br/>
-
-    You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-    Feel free to use it. <br/>
-
-    If you end up using it, please link to here and drop me an email.
-    I'm always happy to see people using it.
+    <h4>Acknowledgement</h4>
+    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>. Some stylisitc alterations were made with inspiration from <a href="https://github.com/thashim/thashim.github.io">Tatsunori Hashimoto</a>.
 </div>
