@@ -1,18 +1,18 @@
 papers:
 
   - title: "A Community-based Approach to Image Analysis of Cells, Tissues and Tumors"
-    authors: "<b>CSBC/PS-ON Image Analysis Working Group</b>, Juan Carlos Vizcarra, Erik A. Burlingame, Yury
+    authors: "CSBC/PS-ON Image Analysis Working Group<sup>§</sup><sup>‡</sup>, Juan Carlos Vizcarra, Erik A. Burlingame, Yury
 Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
-    venue: "BioArXiv. 2021."
-    selected: y
+    venue: "BioArXiv (2021)."
+    selected: n
 
   - title: "Developing Machine Learning Models to Personalize Care Levels among Emergency Room Patients for Hospital Admission"
     authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, <b>Gautam Machiraju</b>, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen"
-    venue: "Journal of the American Medical Informatics Association. 2021."
+    venue: "Journal of the American Medical Informatics Association (2021)."
     selected: y
 
   - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
     authors: "<b>Gautam Machiraju</b>, Parag Mallick, Hermann Frieboes"
-    venue: "Nature Scientific Reports. 2020"
+    venue: "Nature Scientific Reports (2020)."
     selected: y
 
