@@ -16,3 +16,17 @@ Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
     venue: "Nature Scientific Reports (2020)."
     selected: y
 
+  - title: "Small Molecule Property Prediction via Proxy Labeling and Multi-scale Learning"
+    authors: "<b>Gautam Machiraju</b>, Parag Mallick"
+    venue: "Preprint (2021)."
+    paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf"
+    selected: n
+
+  - title: "Multi-omics factorization illustrates the added value of deep learning approaches"
+    authors: "<b>Gautam Machiraju</b>, David Amar, Euan Ashley"
+    venue: "Preprint (2019)."
+    paper_pdf: http://cs229.stanford.edu/proj2019spr/report/66.pdf
+    selected: n
+
+
+
