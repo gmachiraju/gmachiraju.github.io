@@ -11,16 +11,16 @@ Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
     venue: "Journal of the American Medical Informatics Association (2021)."
     selected: y
 
-  - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
-    authors: "<b>Gautam Machiraju</b>, Parag Mallick, Hermann Frieboes"
-    venue: "Nature Scientific Reports (2020)."
-    selected: y
-
   - title: "Small Molecule Property Prediction via Proxy Labeling and Multi-scale Learning"
     authors: "<b>Gautam Machiraju</b>, Parag Mallick"
     venue: "Preprint (2021)."
     paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf"
     selected: n
+
+  - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
+    authors: "<b>Gautam Machiraju</b>, Parag Mallick, Hermann Frieboes"
+    venue: "Nature Scientific Reports (2020)."
+    selected: y
 
   - title: "Multi-omics factorization illustrates the added value of deep learning approaches"
     authors: "<b>Gautam Machiraju</b>, David Amar, Euan Ashley"
