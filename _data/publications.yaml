@@ -2,13 +2,13 @@ papers:
 
   - title: "EpiMix: an integrative tool for the population-level analysis of DNA methylation"
     authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, Olivier Gevaert"
-    venue: In review.
+    venue: In review (2022).
     selected: y
 
   - title: "A Community-based Approach to Image Analysis of Cells, Tissues and Tumors"
     authors: "CSBC/PS-ON Image Analysis Working Group<sup>§</sup><sup>‡</sup>, Juan Carlos Vizcarra, Erik A. Burlingame, Yury
 Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
-    venue: "BioArXiv (2021)."
+    venue: "Computerized Medical Imaging and Graphics (2022)."
     selected: n
 
   - title: "Developing Machine Learning Models to Personalize Care Levels among Emergency Room Patients for Hospital Admission"
