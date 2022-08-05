@@ -1,8 +1,13 @@
 papers:
 
   - title: "EpiMix: an integrative tool for the population-level analysis of DNA methylation"
-    authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, Gautam Machiraju, Olivier Gevaert"
+    authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
     venue: In review (2022).
+    selected: y
+
+    - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
+    authors: "Gautam Machiraju, Sylvia Plevritis, Parag Mallick"
+    venue: European Conference on Computer Vision (ECCV), 2022.
     selected: y
 
   - title: "A Community-based Approach to Image Analysis of Cells, Tissues and Tumors"
