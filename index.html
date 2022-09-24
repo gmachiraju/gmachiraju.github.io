@@ -6,7 +6,7 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a PhD Candidate in Biomedical Informatics (BMI) at Stanford University's Department of Biomedical Data Science (DBDS). My research interests are driven by biomedical applications and broadly span (1) the epirical study of application-driven theoretical questions, (2) developing novel machine learning and computer vision methods, and (3) gaining new insights about biomedicine. I am fortunate to be advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and am grateful to spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> led by <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Chris Ré</a> (Computer Science). Much of my graduate training was graciously funded via the NIH (BD2K, NLM) with awarded additional scholarship from the <a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Stanford Data Science Institute</a>. Our lab's work is generously supported by various agencies and organizations including DARPA, NASA, NIH, Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>, and Google.
+  I am a PhD Candidate in Biomedical Data Science at Stanford University. My research interests are primarily motivated by biomedical applications and broadly span (1) the epirical study of application-driven theoretical questions, (2) developing novel machine learning and computer vision methods, and (3) gaining new insights about biomedicine. I am fortunate to be advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and am grateful to spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> led by <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (Computer Science). Much of my graduate training was graciously funded via the NIH (BD2K, NLM) with awarded additional scholarship from the <a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Stanford Data Science Institute</a>. Our lab's work is generously supported by various agencies and organizations including DARPA, NASA, NIH, Google, Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>.
   <p>
 
   <p> 
@@ -22,26 +22,26 @@ title: Home
 <div class="docs-section" id="research">
   <h4>Research</h4>
   <p>
-  Currently, my research aims to better our understanding of spatial systems and the <i>key actors</i> that distinguish such systems from one another. To this end, my thesis work seeks to extract human-interpretable, differentially expressed salient objects captured in high-resolution megapixel images. Rooted in the paradigm of <b>weak supervision</b> and motivation of <b>model transparency</b>, my methods and applications work both sit squarely in the eXplainable Artificial Intelligence (XAI) and Interpretable Machine Learning (IML) research community. Some specific topics of interest are:
+  Currently, my research aims to better our understanding of spatial systems and the <i>key actors</i> that distinguish such systems from one another. To this end, my thesis work seeks to extract human-interpretable, differentially expressed salient objects captured in high-resolution megapixel images. Rooted in the paradigm of <b>weak supervision</b> and motivation of <b>model interpretability</b>, my methods and applications work both sit squarely in the eXplainable Artificial Intelligence (XAI) and Interpretable Machine Learning (IML) research community. Some broad research themes include:
     <dl style="PADDING-LEFT: 40px">
-    <dt><b>Weakly supervised Salient Object Detection (wsSOD)</b></dt> 
-    <dd>Can image classifiers identify truly salient objects that are human-interpretable and differentially expressed? For deployment in human-centered applications, evaluation can't just be about accurate classification. Are some architectures inherently better at performing wsSOD and classification alike? </dd>
-    <dt><b>Model robustness under weak supervision</b></dt>
-    <dd>When predictive models are only given weak or coarse labels during training, how weak is too weak? Are some architectures more robust to weaker labels when performing classification and detecting salient objects? </dd>
-    <dt><b>Mitigating weak supervision in modeling</b></dt>
-    <dd>Maybe we can bypass the constraints of weak supervision to learn more holistic representations of images. We hypothesize that megapixel image classifiers that take spatial context into account should perform better at both wsSOD and classification. We are currently exploring Multi-task Auxiliary Learning and geostatitics-guided loss functions to incentivize spatial awareness and align AI explanation with human interpretation. </dd>
+    <dt><b>Architecture selection driven by interpretability</b></dt>
+    <dd><i>For deployment in human-centered applications, evaluation of classifiers can't be anchored on accurate predictions alone. Weakly supervised Salient Object Detection (wsSOD)</i> asks the question of whether image classifiers can identify truly salient objects that are human-interpretable and differentially expressed. Are some architectures (i.e. model families) inherently better at performing wsSOD and classification alike? Are some architectures more robust to low signal-to-noise ratios — e.g. weaker/coarser labels or lower-resolution inputs — when performing both tasks?</dd>
+    <dt><b> </b></dt>
+    <dd> </dd>
+    <dt><b>Designing inherently interpretable architectures</b></dt>
+    <dd>We aim to learn more holistic representations of data inputs for more interpretable model explanations. For megapixel images, this entails bypassing the constraints of weak supervision. We hypothesize that megapixel image classifiers will perform better at both wsSOD and classification if they are incentivized to learn spatial context and long-range dependencies at multiple scales. We are actively exploring generalizable multi-task and multi-agent frameworks and contrastive objectives through ideas in game theory, optimization, and geostatistics, respectively.</dd>
     </dl>
     </dl>
   </p>
   <p>
-    <b>Primary applications are in tumor pathology and spatial biology. We seek to improve cancer prognostics</b> by identifying histopathological biomarkers of cancer progression in the tumor microenvironment. To do this, we analyze state-of-the-art hyperplexed immunofluorescence tissue microscopy images (>30 image channels) through amazing collaborations at GE Global Research and Stanford's <a href="https://med.stanford.edu/plevritis.html" target="_blank">Plevritis Lab</a>. In such application and data domains, classifier interpretability is both necessary and enters a new frontier in explanation mapping due to the increased channel dimensionality of hyperplexed images.
+    <b>Primary applications are in tumor pathology and spatial biology. We seek to improve cancer prognostics</b> by discovering histo-molecular biomarkers of cancer progression in the tumor microenvironment. To do this, we analyze state-of-the-art highly multiplexed immunofluorescence tissue microscopy images (>30 image channels) through amazing collaborations at GE Global Research and Stanford's <a href="https://med.stanford.edu/plevritis.html" target="_blank">Plevritis Lab</a>. In such application and data domains, classifier interpretability is both necessary and enters a new frontier in explanation mapping due to the increased channel dimensionality of multiplexed images. 
   </p>
   <p></p>
   <p>
     <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.research_pic }}'></a>
   </p>
 </div>
-
+<!-- Model robustness under weak supervision and changes in input resolution. When predictive models are only given weak or coarse labels during training, how weak is too weak? Are -->
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">

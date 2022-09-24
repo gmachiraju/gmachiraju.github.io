@@ -1,7 +1,17 @@
 papers:
+  - title: Spatial Statistics for Spatial Biology
+    authors: "Hunter Boyce, Gautam Machiraju, Parag Mallick"
+    venue: In review.
+    selected: y
+
   - title: "EpiMix: An Integrative Tool for the Population-level Analysis of DNA Methylation"
     authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
-    venue: In review (2022).
+    venue: In review.
+    selected: y
+
+  - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Monkeypox Virus Infection"
+    authors: "lexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
+    venue: In review.
     selected: y
 
   - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
