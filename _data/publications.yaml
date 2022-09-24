@@ -1,6 +1,6 @@
 papers:
   - title: Spatial Statistics for Spatial Biology
-    authors: "Hunter Boyce, Gautam Machiraju, Parag Mallick"
+    authors: "Hunter Boyce, <b>Gautam Machiraju</b>, Parag Mallick"
     venue: In review.
     selected: y
 
@@ -10,7 +10,7 @@ papers:
     selected: y
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Monkeypox Virus Infection"
-    authors: "lexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
+    authors: "Alexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
     venue: In review.
     selected: y
 
