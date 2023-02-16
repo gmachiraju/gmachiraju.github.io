@@ -11,7 +11,7 @@ papers:
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Monkeypox Virus Infection"
     authors: "Alexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
-    venue: "Nature Medicine (2022)."
+    venue: "Nature Medicine (2023)."
     selected: y
 
   - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
