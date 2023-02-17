@@ -71,6 +71,11 @@ h4 {
   padding: 3px;
 }
 
+.imgContainer{
+    float:left;
+}
+
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
