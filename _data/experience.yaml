@@ -6,6 +6,12 @@ experiences:
   subtitle: "Biomedical Data Science"
   category: "school"
 
+- place: "IBM Research"
+  time: "Summer 2023"
+  title: "Student Researcher"
+  subtitle: "Foundation Models for video/AR"
+  category: "work"
+
 - place: "Canary Center at Stanford"
   time: "Sep 2016 - Aug 2018"
   title: "Bioinformatics Research Assistant"
