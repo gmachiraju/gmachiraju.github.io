@@ -4,10 +4,12 @@ papers:
     venue: In review.
     selected: y
 
-  # - title: <ICML workshop paper>
-  #   authors: "<b>Gautam Machiraju</b>, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
-  #   venue: In review.
-  #   selected: y
+  - title: "Prospectors: Leveraging Short Contexts to Mine Salient Objects in High-dimensional Imagery"
+    authors: "<b>Gautam Machiraju</b>, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
+    venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
+    selected: y
+
+ # \textbf{}, \textit{International Conference on Machine Learning} (ICML) workshop on \textit{Interpretable Machine Learning for Healthcare} (IMLH) 2023.
 
   # - title: "EpiMix: An Integrative Tool for the Population-level Analysis of DNA Methylation"
   #   authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
