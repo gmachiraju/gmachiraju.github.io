@@ -29,10 +29,16 @@ projects:
     url: "assets/figs/instructive.png"
     selected: n
 
-  - title: "Nash Equilibria for optimizers"
-    subtitle: "multiple choices depicted at each training step"
+  - title: "Nash Equilibria for joint optimizers"
+    subtitle: "multiple choice grid depicted for each training step"
     thumbnail: "assets/figs/nash.png"
     url: "assets/figs/nash.png"
+    selected: n
+
+  - title: "Mpox mobile surveillance"
+    subtitle: "graphical abstract behind our Nature Medicine (2023) paper"
+    thumbnail: "assets/figs/global/mpox.png"
+    url: "assets/figs/eccv.png"
     selected: n
 
   - title: "Visually grounded models"
@@ -47,20 +53,14 @@ projects:
     url: "_projects/2014_item-cold-start.md"
     selected: n
 
-  - title: "Mpox mobile surveillance"
-    subtitle: "graphical abstract behind our Nature Medicine (2023) paper"
-    thumbnail: "assets/figs/global/mpox.png"
-    url: "assets/figs/eccv.png"
-    selected: n
-
   - title: "Increasing context lengths"
-    subtitle: "comparison of lab's methods"
+    subtitle: "comparison of lab's architectures"
     thumbnail: "assets/figs/dod.png"
     url: "assets/figs/dod.png"
     selected: n
 
   - title: "Hallmarks of cancer"
-    subtitle: "Background information on cancer progression"
+    subtitle: "background information on cancer progression"
     thumbnail: "assets/figs/cancer/hallmarks.png"
     url: "assets/figs/cancer/hallmarks.png"
     selected: n
