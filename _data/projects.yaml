@@ -53,19 +53,19 @@ projects:
     url: "assets/figs/eccv.png"
     selected: n
 
-- title: "Increasing context lengths"
+  - title: "Increasing context lengths"
     subtitle: "comparison of lab's methods"
     thumbnail: "assets/figs/dod.png"
     url: "assets/figs/dod.png"
     selected: n
 
-- title: "Hallmarks of cancer"
+  - title: "Hallmarks of cancer"
     subtitle: "Background information on cancer progression"
     thumbnail: "assets/figs/cancer/hallmarks.png"
     url: "assets/figs/cancer/hallmarks.png"
     selected: n
 
-- title: "Global health monitoring"
+  - title: "Global health monitoring"
     subtitle: "graphical abstract behind remote sensing for health surveillance"
     thumbnail: "assets/figs/global/r01.png"
     url: "assets/figs/global/r01.png"
