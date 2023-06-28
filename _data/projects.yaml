@@ -1,33 +1,77 @@
 projects:
-  - title: "Physics-based modeling of cancer"
-    subtitle: "Describing numerical simulation of protein biomarker shedding"
+  - title: "Detecting salient objects"
+    subtitle: "toy examples to show class differential features"
+    thumbnail: "assets/figs/instruction.png"
+    url: "assets/figs/instruction.png"
+    selected: y
+
+  - title: "Systems for Foundation Models"
+    subtitle: "describing advances on chip design + distributed training"
+    thumbnail: "assets/figs/global/darpa.png"
+    url: "assets/figs/global/darpa.png"
+    selected: y
+
+  - title: "New architecture to learn salient objects"
+    subtitle: "depicting graphical data structures behind attribution"
+    thumbnail: "assets/figs/k2.png"
+    url: "assets/figs/k2.png"
+    selected: y
+
+  - title: "Evaluating model explanations"
+    subtitle: "graphical abstract behind our ECCV 2022 paper"
+    thumbnail: "assets/figs/eccv.png"
+    url: "assets/figs/eccv.png"
+    selected: n
+
+  - title: "Vision for instructive AI"
+    subtitle: "talking points for where models could help humans"
+    thumbnail: "assets/figs/instructive.png"
+    url: "assets/figs/instructive.png"
+    selected: n
+
+  - title: "Nash Equilibria for optimizers"
+    subtitle: "multiple choices depicted at each training step"
+    thumbnail: "assets/figs/nash.png"
+    url: "assets/figs/nash.png"
+    selected: n
+
+  - title: "Visually grounded models"
+    subtitle: "Desiderata to create more expressive Foundation Models"
+    thumbnail: "assets/figs/hai.png"
+    url: "assets/figs/hai.png"
+    selected: n
+
+  - title: "Physics-based model of cancer"
+    subtitle: "graphical abstract for our Nature Sci Reports (2021) paper"
     thumbnail: "assets/figs/cancer/shedding.png"
     url: "_projects/2014_item-cold-start.md"
-    selected: y
-
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
-    selected: y
-
-  - title: "Responsive Communities"
-    subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/2015_jun/thumbnail.png"
-    url: "projects/2015_jun.html"
-    selected: y
-
-  - title: "Cold-Start Recommendations"
-    subtitle: "Learning Local Collective Embeddings"
-    thumbnail: "assets/projects/2014_item-cold-start/thumbnail.jpg"
-    url: "projects/2014_item-cold-start.html"
     selected: n
 
-  - title: "Semi-supervised Learning"
-    subtitle: "Iterative Hybrid Algorithm"
-    thumbnail: "assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg"
-    url: "projects/2013_iterative-hybrid-algorithm.html"
+  - title: "Mpox mobile surveillance"
+    subtitle: "graphical abstract behind our Nature Medicine (2023) paper"
+    thumbnail: "assets/figs/global/mpox.png"
+    url: "assets/figs/eccv.png"
     selected: n
+
+- title: "Increasing context lengths"
+    subtitle: "comparison of lab's methods"
+    thumbnail: "assets/figs/dod.png"
+    url: "assets/figs/dod.png"
+    selected: n
+
+- title: "Hallmarks of cancer"
+    subtitle: "Background information on cancer progression"
+    thumbnail: "assets/figs/cancer/hallmarks.png"
+    url: "assets/figs/cancer/hallmarks.png"
+    selected: n
+
+- title: "Global health monitoring"
+    subtitle: "graphical abstract behind remote sensing for health surveillance"
+    thumbnail: "assets/figs/global/r01.png"
+    url: "assets/figs/global/r01.png"
+    selected: n
+
+
 
   # - title: "Twitter Sentiment Analysis"
   #   subtitle: "Analyzing Financial Tweets"
