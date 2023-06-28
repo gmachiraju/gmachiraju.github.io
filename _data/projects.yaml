@@ -1,8 +1,8 @@
 projects:
-  - title: "Detecting Network Effects"
-    subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+  - title: "Physics-based modeling of cancer"
+    subtitle: "Describing numerical simulation of protein biomarker shedding"
+    thumbnail: "assets/figs/cancer/shedding.png"
+    url: ""
     selected: y
 
   - title: "Human Atlas"
@@ -29,26 +29,26 @@ projects:
     url: "projects/2013_iterative-hybrid-algorithm.html"
     selected: n
 
-  - title: "Twitter Sentiment Analysis"
-    subtitle: "Analyzing Financial Tweets"
-    thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
-    url: "projects/2011_twitter-sentiment-analysis.html"
-    selected: n
+  # - title: "Twitter Sentiment Analysis"
+  #   subtitle: "Analyzing Financial Tweets"
+  #   thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
+  #   url: "projects/2011_twitter-sentiment-analysis.html"
+  #   selected: n
 
-  - title: "Wordnet Construction"
-    subtitle: "Automatic Wordnet Construction using Language Models"
-    thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
-    url: "projects/2010_wordnet-contruction.html"
-    selected: n
+  # - title: "Wordnet Construction"
+  #   subtitle: "Automatic Wordnet Construction using Language Models"
+  #   thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
+  #   url: "projects/2010_wordnet-contruction.html"
+  #   selected: n
 
-  - title: "Fingerprint Verification"
-    subtitle: "Image processing class project"
-    thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
-    url: "projects/2010_fingerprint-verification.html"
-    selected: n
+  # - title: "Fingerprint Verification"
+  #   subtitle: "Image processing class project"
+  #   thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
+  #   url: "projects/2010_fingerprint-verification.html"
+  #   selected: n
 
-  - title: "Connect Four AI Agent"
-    subtitle: "Iterative deepening and alpha-beta pruning"
-    thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
-    url: "projects/2009_connect-four.html"
-    selected: n
+  # - title: "Connect Four AI Agent"
+  #   subtitle: "Iterative deepening and alpha-beta pruning"
+  #   thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
+  #   url: "projects/2009_connect-four.html"
+  #   selected: n
