@@ -2,7 +2,7 @@ projects:
   - title: "Physics-based modeling of cancer"
     subtitle: "Describing numerical simulation of protein biomarker shedding"
     thumbnail: "assets/figs/cancer/shedding.png"
-    url: ""
+    url: "_projects/2014_item-cold-start.md"
     selected: y
 
   - title: "Human Atlas"
