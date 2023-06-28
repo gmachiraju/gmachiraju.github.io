@@ -9,13 +9,6 @@ papers:
     venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
     selected: y
 
- # \textbf{}, \textit{International Conference on Machine Learning} (ICML) workshop on \textit{Interpretable Machine Learning for Healthcare} (IMLH) 2023.
-
-  # - title: "EpiMix: An Integrative Tool for the Population-level Analysis of DNA Methylation"
-  #   authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
-  #   venue: In review.
-  #   selected: y
-
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
     authors: "Alexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
     venue: "Nature Medicine (2023)."
@@ -56,3 +49,10 @@ Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
 
 
 
+
+ # \textbf{}, \textit{International Conference on Machine Learning} (ICML) workshop on \textit{Interpretable Machine Learning for Healthcare} (IMLH) 2023.
+
+  # - title: "EpiMix: An Integrative Tool for the Population-level Analysis of DNA Methylation"
+  #   authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
+  #   venue: In review.
+  #   selected: y
