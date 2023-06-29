@@ -33,7 +33,7 @@ projects:
     subtitle: "multiple choice grid depicted for each training step"
     thumbnail: "assets/figs/nash.png"
     url: "assets/figs/nash.png"
-    selected: n
+    selected: y
 
   - title: "Mpox mobile surveillance"
     subtitle: "graphical abstract behind our Nature Medicine (2023) paper"
@@ -51,7 +51,7 @@ projects:
     subtitle: "graphical abstract for our Nature Sci Reports (2021) paper"
     thumbnail: "assets/figs/cancer/shedding.png"
     url: "assets/figs/cancer/shedding.png"
-    selected: y
+    selected: n
 
   - title: "Increasing context lengths"
     subtitle: "comparison of lab's architectures"
