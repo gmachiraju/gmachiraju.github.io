@@ -17,18 +17,6 @@ projects:
     url: "assets/figs/k2.png"
     selected: y
 
-  - title: "Evaluating model explanations"
-    subtitle: "graphical abstract behind our ECCV 2022 paper"
-    thumbnail: "assets/figs/eccv.png"
-    url: "assets/figs/eccv.png"
-    selected: n
-
-  - title: "Vision for instructive AI"
-    subtitle: "talking points for where models could help humans"
-    thumbnail: "assets/figs/instructive.png"
-    url: "assets/figs/instructive.png"
-    selected: n
-
   - title: "Nash Equilibria for joint optimizers"
     subtitle: "multiple choice grid depicted for each training step"
     thumbnail: "assets/figs/nash.png"
@@ -41,6 +29,36 @@ projects:
     url: "assets/figs/global/mpox.png"
     selected: y
 
+  - title: "Increasing context lengths"
+    subtitle: "comparison of lab's architectures"
+    thumbnail: "assets/figs/dod.png"
+    url: "assets/figs/dod.png"
+    selected: y
+
+  - title: "Evaluating model explanations"
+    subtitle: "graphical abstract behind our ECCV 2022 paper"
+    thumbnail: "assets/figs/eccv.png"
+    url: "assets/figs/eccv.png"
+    selected: n
+
+  - title: "Vision for instructive AI"
+    subtitle: "talking points for where models could help humans"
+    thumbnail: "assets/figs/instructive.png"
+    url: "assets/figs/instructive.png"
+    selected: n
+
+  - title: "Global health monitoring"
+    subtitle: "graphical abstract behind remote sensing for health surveillance"
+    thumbnail: "assets/figs/global/r01.png"
+    url: "assets/figs/global/r01.png"
+    selected: n
+
+  - title: "Hallmarks of cancer"
+    subtitle: "background information on cancer progression"
+    thumbnail: "assets/figs/cancer/hallmarks.png"
+    url: "assets/figs/cancer/hallmarks.png"
+    selected: n
+    
   - title: "Visual grounding"
     subtitle: "desiderata to create more expressive Foundation Models"
     thumbnail: "assets/figs/hai.png"
@@ -53,23 +71,6 @@ projects:
     url: "assets/figs/cancer/shedding.png"
     selected: n
 
-  - title: "Increasing context lengths"
-    subtitle: "comparison of lab's architectures"
-    thumbnail: "assets/figs/dod.png"
-    url: "assets/figs/dod.png"
-    selected: y
-
-  - title: "Hallmarks of cancer"
-    subtitle: "background information on cancer progression"
-    thumbnail: "assets/figs/cancer/hallmarks.png"
-    url: "assets/figs/cancer/hallmarks.png"
-    selected: n
-
-  - title: "Global health monitoring"
-    subtitle: "graphical abstract behind remote sensing for health surveillance"
-    thumbnail: "assets/figs/global/r01.png"
-    url: "assets/figs/global/r01.png"
-    selected: n
 
 
 
