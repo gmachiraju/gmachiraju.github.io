@@ -3,13 +3,13 @@ experiences:
 - place: "Stanford University"
   time: "2018 - present"
   title: "Ph.D. Student"
-  subtitle: "Biomedical Data Science"
+  subtitle: "Biomedical Data Science <br/> Instructive AI for scientific discovery"
   category: "school"
 
 - place: "IBM Research"
   time: "Summer 2023"
   title: "Student Researcher"
-  subtitle: "Foundation Models for video/AR"
+  subtitle: "Foundation Models for video streams"
   category: "work"
 
 - place: "Canary Center at Stanford"
@@ -39,7 +39,7 @@ experiences:
 - place: "Lawrence Berkeley National Lab"
   time: "July 2013 – May 2015"
   title: "Undergraduate Researcher"
-  subtitle: "Computational biophysics & <br/> structural biology of enzymes"
+  subtitle: "Computational Biophysics & <br/> structural biology of enzymes"
   category: "work"
 
 - place: "Berkeley BioLabs"
@@ -51,5 +51,5 @@ experiences:
 - place: "University of California, Berkeley"
   time: "2012 - 2016"
   title: "B.A. Student"
-  subtitle: "Applied Mathematics <br/> Minor in Bioengineering"
+  subtitle: "Applied Mathematics <br/> (emphasis in Mathematical Biology) <br/> Minor in Bioengineering"
   category: "school"
