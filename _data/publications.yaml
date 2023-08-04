@@ -7,6 +7,7 @@ papers:
   - title: "Prospectors: Leveraging Short Contexts to Mine Salient Objects in High-dimensional Imagery"
     authors: "<b>Gautam Machiraju</b>, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
     venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
+    paper_pdf: "/assets/publications/k2/k2.pdf" 
     selected: y
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
@@ -33,7 +34,7 @@ Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
   - title: "Small Molecule Property Prediction via Proxy Labeling and Multi-scale Learning"
     authors: "<b>Gautam Machiraju</b>, Parag Mallick"
     venue: "Preprint (2021)."
-    paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf"
+    paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf" 
     selected: n
 
   - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
