@@ -1,5 +1,10 @@
 papers:
-  - title: Spatial Statistics for Spatial Biology
+  - title: "Grammar Matters: Exploring Grammatical Variation’s Role in Improving Fine-Tuned LLMs for Biomedical Relation Extraction"
+    authors: "Varun Tandon, <b>Gautam Machiraju</b>, Parag Mallick"
+    venue: In review.
+    selected: y
+
+  - title: "Spatial Statistics for Spatial Biology"
     authors: "Hunter Boyce, <b>Gautam Machiraju</b>, Parag Mallick"
     venue: In review.
     selected: y
