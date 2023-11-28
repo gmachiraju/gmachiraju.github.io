@@ -3,7 +3,7 @@ experiences:
 - place: "Stanford University"
   time: "2018 - present"
   title: "PhD Student"
-  subtitle: "Biomedical Informatics <br/> AI copilots for scientific discovery"
+  subtitle: "Biomedical Informatics <br/> data copilots for scientific discovery"
   category: "school"
 
 - place: "IBM Research"
@@ -24,7 +24,7 @@ experiences:
   subtitle: "Software engineering for robotics: <br/> queueing, optimization, search"
   category: "work"
 
-- place: "Center for Computational Biology"
+- place: "Center for Computational Biology, UCB"
   time: "Sep 2015 - June 2016"
   title: "Undergraduate Researcher"
   subtitle: "Genomic sequence alignment algorithms"
