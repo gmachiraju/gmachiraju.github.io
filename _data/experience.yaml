@@ -3,7 +3,7 @@ experiences:
 - place: "Stanford University"
   time: "2018 - present"
   title: "PhD Student"
-  subtitle: "Biomedical Informatics <br/> data copilots for scientific discovery"
+  subtitle: "Biomedical Informatics <br/> Data copilots for scientific discovery"
   category: "school"
 
 - place: "IBM Research"
@@ -45,7 +45,7 @@ experiences:
 - place: "Berkeley BioLabs"
   time: "Summer 2014"
   title: "Bioengineering Intern"
-  subtitle: "Gene transfer wet-lab experimentation"
+  subtitle: "Gene transfer experimentation"
   category: "work"
 
 - place: "University of California, Berkeley"
