@@ -2,6 +2,26 @@
 layout: default
 title: Home
 ---
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 50.00%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
@@ -45,16 +65,26 @@ title: Home
     <p>
     <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.prospect_prot }}' height="85" width="250" border="50px"></a></p>
     <p> -->
-    <div class="row">
+<!--    <div class="row">
       <div class="column">
         <img src="assets/profile-pics/prospect_path.png" alt="Pathology" style="width:46%">
       </div>
       <div class="column">
         <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:52%">
       </div>
+    </div> -->
+    <div class="clearfix">
+      <div class="img-container">
+      <img src="assets/profile-pics/prospect_path.png" alt="Pathology" style="width:100%">
+      </div>
+      <div class="img-container">
+      <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:100%">
+      </div>
     </div>
+    
     <dt><b> </b></dt>
     <dd> </dd> 
+
     <dl style="PADDING-LEFT: 40px">
     <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
     <dt><b>Deploying feature attribution to spatial biology for biomarker discovery</b></dt>
