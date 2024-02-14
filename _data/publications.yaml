@@ -1,5 +1,5 @@
 papers:
-  - title: "Prospector Heads: Equippable Concept-based Feature Attribution at Scale"
+  - title: "Prospector Heads: Generalized Feature Attribution for Large Models & Data"
     authors: "<b>Gautam Machiraju</b>, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
     venue: In review (arXiv upcoming).
     selected: y    

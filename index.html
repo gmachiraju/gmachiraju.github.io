@@ -28,17 +28,24 @@ title: Home
   <h4>Thesis Research</h4>
   <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_pic }}' height="170" width="170" border="50px"></a></p>
   <p>
-   My research interests broadly span <b>AI-human collaboration</b> and <b>AI-driven concept discovery</b> to expand our understanding of science and biomedicine. Methodologically, I currently work at the intersection of architectures for long-range modeling, foundation models (FMs), geometric ML, and interpretability & explainability. My thesis work particularly focuses on bettering our understanding of <b>spatial systems</b> and the <i>key actors</i> that distinguish such systems from one another. To this end, we seek to extract class-specific (i.e. differentially expressed) regions captured in high-dimensional imagery. My thesis aims include: 
+   My research interests broadly span <b>AI-human collaboration</b> and <b>AI-driven concept discovery</b> to expand our understanding of science and biomedicine. Methodologically, I currently work at the intersection of architectures for long-range modeling, foundation models (FMs), geometric ML, and interpretability & explainability. My thesis work particularly focuses on bettering our understanding of spatial systems and the <i>key actors</i> that distinguish such systems from one another. To this end, we seek to equip models with <b>feature attribution</b> capabilities to extract class-specific regions captured in high-dimensional imagery. My thesis aims include: 
     <dl style="PADDING-LEFT: 40px">
-    <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt>
-    <dd>For deployment in human-centered applications, evaluation of classifiers can't be anchored on accurate predictions alone. Are some architectures inherently better at detecting class-salient regions? Check out our work at ECCV'22. </dd>
+    <!-- <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt> -->
+    <dt><b>Evaluating feature attribution</b></dt>
+    <dd>For deployment in human-centered applications, evaluation of classifiers can't be anchored on accurate predictions alone. Are some architectures or explanation methods inherently better at detecting class-specific regions? We design an evaluation framework for improved architecture and attribution selection. Check out our work at ECCV'22. </dd>
     <dt><b> </b></dt>
     <dd> </dd>
-    <dt><b>Designing inherently interpretable architectures to mine class-specific regions (i.e. data copilots)</b></dt>
-    <dd>We reason that richer data representations will enable this capability. For high-dimensional, unstructured data (e.g. images, graphs, text), this involves leveraging the expressivity of FM embeddings and learning multi-scale spatial dependencies. Check out our work at ICML'23 and future work on arXiv'24.</dd>
+    <!-- <dt><b>Designing inherently interpretable architectures to mine class-specific regions (i.e. data copilots)</b></dt> -->
+    <dt><b>Building performant feature attribution methods</b></dt>
+    <dd>We reason that richer data representations will enable this capability. For high-dimensional, unstructured data (e.g. images, graphs, text), this involves leveraging the expressivity of FM embeddings and learning multi-scale spatial dependencies. We developed interpretable architectures called "prospector heads" to mine for class-specific regions using FM-discovered semantic concepts (example outputs below for histopathology and protein structures). Check out our work at ICML'23 and arXiv'24.</dd>
+    <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.prospect_path }}' height="170" width="170" border="50px"></a></p>
+    <p>
+    <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.prospect_prot }}' height="170" width="170" border="50px"></a></p>
+    <p>
     <dt><b> </b></dt>
     <dd> </dd>
-    <dt><b>Applications in spatial biology for biomarker discovery</b></dt>
+    <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
+    <dt><b>Deploying feature attribution to spatial biology for biomarker discovery</b></dt>
     <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_gif }}' height="250" width="250" border="30px"></a></p>
     <dd>We seek to improve cancer prognostics by discovering novel histo-molecular biomarkers of cancer progression in the tumor microenvironment. To do this, we deploy models on multiplexed pathology images provided by collaborators at GE Global Research.</dd>
     </dl>
@@ -49,14 +56,12 @@ title: Home
   <h4>Preprints & Publications</h4>
   <p>While my thesis research focuses on explaianble AI & segmentation in the context of high-dimensional data, I've been privileged to work in several methods and application domains. <u>A copy of my CV can be found at the bottom of this page.</u> <b>Stay tuned for future work on:</b> 
   <ol>
-    <li>Upcoming: Fact-checking multimodal FMs to improve image tagging & retrieval</li>
-    <li>Upcoming: Multimodal FMs that pass medical board exams</li>
-    <li>Upcoming: State-space models for DNA generation with applications in sequence design</li>
-    <li>Upcoming: Zero-shot semantic segmentation with long medical text support</li>
-    <li>Spring'24: FMs trained on satellite imagery that can predict measures of maternal health & child mortality</li>
-    <li>Spring'24: Few-shot detection of human labor trafficking encampments using FMs trained on satellite imagery</li>
-    <li>Spring'24: Applying data copliots for <i>in silico</i> discovery of spatial biomarkers in multiplexed tissue imaging</li>
-    <li>Spring'24: LLMs that can identify rare genetic variants for Mendelian disease in long text documents</li>
+    <li>Multimodal FMs that pass medical board exams</li>
+    <li>Zero-shot segmentation with long text captions</li>
+    <li>Data copliots for spatial biology: <i>in silico</i> discovery of biomarkers of cancer progression</li>
+    <li>Fact-checking multimodal FMs to improve image tagging & retrieval</li>
+    <li>FMs trained on satellite imagery that can predict measures of maternal health & child mortality</li>
+    <li>Few-shot detection of human labor trafficking encampments using FMs trained on satellite imagery</li>
   </ol> 
 
   <br/><br/>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
