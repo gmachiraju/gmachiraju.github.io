@@ -8,10 +8,13 @@ title: Home
   box-sizing: border-box;
 }
 
-<style>
-    ul li { margin-bottom: 10px; }
-</style>
+ul li { margin-bottom: 10px; }
 
+.img-container-full {
+  float: left;
+  width: 100.00%;
+  padding: 5px;
+}
 
 .img-container-wide {
   float: left;
@@ -87,15 +90,18 @@ title: Home
   <!-- <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_gif }}' height="250" width="250" border="30px"></a></p>
   <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.cell-graph}}' height="170" width="170" border="50px"></a></p>
      -->
-     <div class="clearfix">
-      <div class="img-container-wide">
+    <div class="clearfix">
+      <div class="img-container-full">
           <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:100%">
       </div>
-      <div class="img-container">
-          <img src="assets/profile-pics/trip_through_channel_space.gif" alt="spatial bio" style="width:100%">
+    </div>
+
+    <div class="clearfix">
+      <div class="img-container-wide">
+          <img src="assets/profile-pics/research_pic.png" alt="CODEX" style="width:100%">
       </div>
-      <div class="img-container">
-          <img src="assets/profile-pics/cell-graph.png" alt="spatial bio" style="width:100%">
+      <div class="img-container-wide">
+          <img src="assets/profile-pics/trip_through_channel_space.gif" alt="Channels" style="width:100%">
       </div>
     </div>
 </div>
@@ -123,6 +129,12 @@ title: Home
     <dt><b>Deploying feature attribution for knowledge discovery</b></dt>
     <dd>With FMs and scalable feature attribution, we seek to improve cancer subtyping, treatment planning, and prognostics by discovering novel spatial biomarkers of cancer progression in patient biopsies. To do this, we are building data copilots for single-cell spatial biology, including proteomics datasets provided by GE Global Research.</dd>
     </dl>
+
+    <div class="clearfix">
+      <div class="img-container-full">
+          <img src="assets/profile-pics/cell-graph.png" alt="Cell graph" style="width:100%">
+      </div>
+    </div>
 </div>
 
 
