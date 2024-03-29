@@ -27,11 +27,13 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My work centers around developing AI that can expand our understanding of scientific and biomedical data — perhaps to better inform our decision-making (e.g. in the clinic, or for drug development) or perhaps to (re)discover phenomena in high-dimensional unstructured data (e.g. large images, time-series, graphs, or text corpora). We refer to such AI as <b>data copilots</b>. I am extremely fortunate to be advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (Computer Science) and spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> at the <a href="https://ai.stanford.edu/" target="_blank">Stanford AI Lab (SAIL)</a>. My graduate training and research have been graciously funded via the NIH (BD2K, NLM), the Stanford Data Science Institute (<a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Data Science Scholarship</a>), the International Alliance for Cancer Early Detection (<a href="https://canarycenter.stanford.edu/aced/grants/aced-graduate-fellowship.html" target="_blank">Canary-ACED Graduate Fellowship</a>), and Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>.
+  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My current work centers around developing AI that can expand our understanding of scientific and biomedical data — perhaps to better inform our decision-making (e.g. in the clinic, or for drug development) or perhaps to (re)discover phenomena in high-dimensional unstructured data (e.g. large images, time-series, graphs, or text corpora). We refer to such AI as <b>data copilots</b>. 
+
+  I am extremely fortunate to be advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (Computer Science) and spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> at the <a href="https://ai.stanford.edu/" target="_blank">Stanford AI Lab (SAIL)</a>. My graduate training and research have been graciously funded via the NIH (BD2K, NLM), the Stanford Data Science Institute (<a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Data Science Scholarship</a>), the International Alliance for Cancer Early Detection (<a href="https://canarycenter.stanford.edu/aced/grants/aced-graduate-fellowship.html" target="_blank">Canary-ACED Graduate Fellowship</a>), and Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>.
   </p>
 
   <p>
-  <b>I am on the industrial job market for Research Scientist roles</b>, particularly for AI4Science, AI4Healthcare, or Responsible AI teams. Please feel free to contact me about opportunities!
+  <b>I am on the industrial job market</b> for Research Scientist roles, particularly for AI4Science or Responsible AI teams. Please feel free to contact me about opportunities!
   </p>
 
     <!-- Through my mentors, my work is also generously supported by various agencies and organizations including the DoD, ARL, DARPA, NASA, NIH, Google, -->
@@ -45,64 +47,62 @@ title: Home
   </p>
 
 
-<div class="docs-section" id="research">
-  <h4>Thesis Research</h4>
+<div class="docs-section" id="themes">
+  <h4>Research Themes</h4>
   <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_pic }}' height="170" width="170" border="50px"></a></p>
   <p>
-   My research interests broadly span <b>AI-human collaboration</b> and <b>AI-driven concept discovery</b> to expand our understanding of science and biomedicine. Methodologically, I currently work at the intersection of architectures for long-range modeling, foundation models (FMs), geometric ML, and interpretability & explainability. My thesis work particularly focuses on bettering our understanding of spatial systems and the <i>key actors</i> that distinguish such systems from one another. To this end, we seek to equip models with <b>feature attribution</b> capabilities to extract class-specific regions captured in high-dimensional imagery. My thesis aims include: 
+    <b>My research interests</b> broadly span AI-human collaboration and AI-driven knowledge discovery to expand our understanding of the natural world, particularly for the biological sciences and physical systems. Why? The sciences pose some of the strongest challenges to ML, including high-dimensional unstructured data and uncertain or sparse domain knowledge. These challenges often inspire new paradigms in ML and, in turn, ML for scientific discovery. Methodologically, I currently work at the intersection of:
+    <ul>
+    <li>Foundation models (FMs) — LLMs, multimodal models, etc.</li>
+    <li>(Mechanistic) interpretability & explainability — understanding how models function and make decisions</li>
+    <li>Efficient ML for long-range modeling — geometric priors for learning mechanisms, new forms of convolution, etc.</li>
+    </ul> 
+  </p>
+  <p>
+    <b>Questions include:</b> How do FMs work internally? How should we probe them to understand their learning mechanisms? And how do these internals provide advanced generation capability? Can we exploit these internals to create new FM capabilities, either innate or equipped? Can we replicate FM internals cheaply for new model design? 
+  </p>
+  <p>
+    <b>And for science:</b> How do FMs reason over long space- or time-horizons? Can FMs act as “data copilots” to help us understand key actors that distinguish (spatial, temporal, or spatio-temporal) systems from one another? Perhaps to localize binding sites in protein structures or identify cell neighborhoods contributing to aggressive cancers. 
+  </p>
+
+</div>
+
+<div class="docs-section" id="research">
+  <h4>Thesis Work</h4>
+  <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_pic }}' height="170" width="170" border="50px"></a></p>
+  <p>
+   My thesis work primarily focuses on building data copilots to advance cancer subtyping, treatment planning, and prognostics. For deployment in such human-centered applications, classifying patients (e.g. cancer stage) with high fidelity is important, but we often also need the “evidence” behind that class decision in reference to the patient biopsy. This ML-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in a datum. My thesis aims include:
     <dl style="PADDING-LEFT: 40px">
     <!-- <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt> -->
     <dt><b>Evaluating feature attribution given partial contexts</b></dt>
-    <dd>For deployment in human-centered applications, evaluation of classifiers can't be anchored on accurate predictions alone. Are some architectures or explanation methods inherently better at detecting class-specific regions? We design an evaluation framework for improved architecture and attribution selection. Check out our work at ECCV'22. </dd>
+    <dd>In the realm of high-dimensional data, many ML models today are considered “partial-context” since they are limited by how much data they can process at once. Can such models still perform reliable feature attribution? Are some architectures or attribution methods inherently better at detecting class-specific regions? We design an evaluation framework for improved architecture and attribution selection [ECCV 22].</dd>
     <dt><b> </b></dt>
     <dd> </dd>
     <!-- <dt><b>Designing inherently interpretable architectures to mine class-specific regions (i.e. data copilots)</b></dt> -->
-    <dt><b>Building performant feature attribution methods</b></dt>
-    <dd>We reason that richer data representations will enable this capability. For high-dimensional, unstructured data (e.g. images, graphs, text), this involves leveraging the expressivity of FM embeddings and learning multi-scale spatial dependencies. We developed interpretable architectures called "prospector heads" to mine for class-specific regions using FM-discovered semantic concepts (examples below for histopathology). Check out our work at ICML'23 and arXiv'24.</dd>
+    <dt><b>Building performant feature attribution methods for large models & data</b></dt>
+    <dd>We reason that feature attribution can be enabled by richer data representations, and thus seek to equip feature attribution capabilities to FMs. To both interface with FMs and operate over high-dimensional, unstructured data (e.g. images, graphs, text), we developed interpretable convolutional architectures called "prospector heads" to mine for class-specific regions [ICML 23, arXiv 24].</dd>
     <dt><b> </b></dt>
     <dd> </dd> 
     </dl>
-   <!--  <p style="float: left;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.prospect_path }}' height="85" width="200" border="50px"></a></p>
-    <p>
-    <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.prospect_prot }}' height="85" width="250" border="50px"></a></p>
-    <p> -->
-<!--    <div class="row">
-      <div class="column">
-        <img src="assets/profile-pics/prospect_path.png" alt="Pathology" style="width:46%">
-      </div>
-      <div class="column">
-        <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:52%">
-      </div>
-    </div> -->
-    <div class="clearfix">
-      <div class="img-container">
-      <img src="assets/profile-pics/prospect_path.png" alt="Pathology" style="width:100%">
-      </div>
-<!--       <div class="img-container">
-      <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:100%">
-      </div> -->
-    </div>
-
     <dt><b> </b></dt>
     <dd> </dd> 
-
     <dl style="PADDING-LEFT: 40px">
     <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
-    <dt><b>Deploying feature attribution to spatial biology for biomarker discovery</b></dt>
+    <dt><b>Deploying feature attribution for knowledge discovery</b></dt>
     <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_gif }}' height="250" width="250" border="30px"></a></p>
-    <dd>We seek to improve cancer prognostics by discovering novel histo-molecular biomarkers of cancer progression in the tumor microenvironment. To do this, we are building data copilots for spatial biology, including proprietary proteomics datasets provided GE Global Research.</dd>
+    <dd>With FMs and scalable feature attribution, we seek to improve cancer subtyping, treatment planning, and prognostics by discovering novel spatial biomarkers of cancer progression. To do this, we are building data copilots for single-cell spatial biology, including proteomics datasets provided by GE Global Research.</dd>
     </dl>
 </div>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Preprints & Publications</h4>
-  <p>While my thesis research focuses on interpretable and explainable AI in the context of high-dimensional biomedical data, I've been privileged to work in several methods and application domains. <u>A copy of my CV can be found at the bottom of this page.</u> <b>Stay tuned for future work on:</b> 
+  <p>While my thesis research focuses on interpretable and explainable AI in the context of high-dimensional biomedical data, I've been privileged to work in several methods and application domains. <u>A copy of my CV can be found at the bottom of this page.</u> <b>Stay tuned for future publications on:</b> 
   <ol>
     <li>Multimodal FMs that pass medical board exams</li>
     <li>Data copilots for spatial biology: <i>in silico</i> discovery of biomarkers of cancer progression</li>
     <li>Review paper: explainable ML for digital pathology & spatial biology</li>
-    <li>Characterizing human- and LLM-derived metagames in competitive games like chess</li>
+    <li>Characterizing human- and LLM-derived sequential decisions in competitive games like chess</li>
     <li>VLM-driven zero-shot segmentation with long text captions</li>
     <li>Fact-checking multimodal FMs to improve image tagging & retrieval</li>
     <li>Satellite imagery VLMs fine-tuned to predict measures of maternal health & child mortality</li>

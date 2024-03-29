@@ -1,5 +1,5 @@
 papers:
-  - title: "Grammar Matters: Exploring Grammatical Variation’s Role in Improving Fine-Tuned LLMs for Biomedical Relation Extraction"
+  - title: "Grammar Matters: Grammatical Templates Improve Language Model Fine-Tuning for Biomedical Relation Extraction"
     authors: "Varun Tandon, <b>Gautam Machiraju</b>, Parag Mallick"
     venue: In review.
     selected: y
