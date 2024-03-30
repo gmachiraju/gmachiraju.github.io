@@ -110,20 +110,20 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="research">
   <h4>Thesis Work</h4>
   <p>
-   My thesis work primarily focuses on building data copilots to advance cancer subtyping, treatment planning, and prognostics. For deployment, classifying patients (e.g. cancer stage) with high fidelity is important, but also require “evidence” behind that class decision. This ML-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in a datum. My thesis aims include:
+   My thesis work focuses on building data copilots to advance cancer subtyping, treatment planning, and prognostics. Classifying patients (e.g. cancer stage) with high fidelity is important for clinical decision support, but we also require “evidence” behind class decisions. This ML-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in a datum. My thesis aims to:
     <dl style="PADDING-LEFT: 40px">
     <!-- <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt> -->
-    <dt><b>Evaluating feature attribution given partial contexts</b></dt>
-    <dd>In the realm of high-dimensional data, many ML models today are considered “partial-context” since they are limited by how much data they can process at once. Can such models still perform reliable feature attribution? Are some architectures or attribution methods inherently better at detecting class-specific regions? We design an evaluation framework for improved architecture + attribution selection [ECCV 22].</dd>
+    <dt><b>Evaluate feature attribution given partial contexts</b></dt>
+    <dd>In the realm of high-dimensional data, many ML models today are considered “partial-context” since they are limited by data throughput. Can such models still perform reliable feature attribution? Are some architectures or attribution methods inherently better at detecting class-specific regions? We design an evaluation framework for improved architecture + attribution selection [ECCV 22].</dd>
     <dt><b> </b></dt>
     <dd> </dd>
     <!-- <dt><b>Designing inherently interpretable architectures to mine class-specific regions (i.e. data copilots)</b></dt> -->
-    <dt><b>Building performant feature attribution methods for large models & data</b></dt>
+    <dt><b>Build performant feature attribution methods for large models & data</b></dt>
     <dd>We reason that feature attribution can be enabled by richer data representations, and thus seek to equip this capability to FMs. To both interface with FMs and operate over high-dimensional unstructured data (e.g. images, graphs, text), we developed interpretable convolutional architectures called "prospector heads" to mine for class-specific regions [ICML 23, arXiv 24].</dd>
     <dt><b> </b></dt>
     <dd> </dd> 
     <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
-    <dt><b>Deploying feature attribution for knowledge discovery</b></dt>
+    <dt><b>Deploy feature attribution for knowledge discovery</b></dt>
     <dd>With FMs and scalable feature attribution, we seek to improve cancer subtyping, treatment planning, and prognostics by discovering novel spatial biomarkers of cancer progression in patient biopsies (like the cell graph below). To do this, we are building data copilots for single-cell spatial biology, including proteomics datasets provided by GE Global Research.</dd>
     </dl>
 
