@@ -11,7 +11,7 @@ papers:
 
   - title: "Prospector Heads: Generalized Feature Attribution for Large Models & Data"
     authors: "<b>Gautam Machiraju</b>, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
-    venue: In review; arXiv (2024)
+    venue: International Conference on Machine Learning (ICML), 2024
     paper_pdf: https://arxiv.org/abs/2402.11729
     selected: y 
 
