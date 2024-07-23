@@ -42,13 +42,15 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My current work centers around developing AI that can expand our understanding of scientific and biomedical data — perhaps to better inform our decision-making (e.g. in the clinic, or for drug development) or perhaps to (re)discover phenomena in high-dimensional unstructured data (e.g. text corpora, time-series, images, graphs). We refer to such AI as <b>data copilots</b>. 
-
-  I am extremely fortunate to be advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS) and spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> at the <a href="https://ai.stanford.edu/" target="_blank">Stanford AI Lab (SAIL)</a>. My graduate training and research have been graciously funded via the NIH (BD2K, NLM), the Stanford Data Science Institute (<a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Data Science Scholarship</a>), the International Alliance for Cancer Early Detection (<a href="https://canarycenter.stanford.edu/aced/grants/aced-graduate-fellowship.html" target="_blank">Canary-ACED Graduate Fellowship</a>), and Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>. Prior to Stanford, I received my undergraduate training in Applied Mathematics and Bioengineering from UC Berkeley. I was born and raised in Columbus, OH.
+  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My work centers around developing AI that (a) expands our understanding of scientific and biomedical data and (b) ultimately incorporates this understanding into synthetic data generation. To augment human understanding (a), we require AI-substantiated "evidence" for both clinical decision-making and for (re)discovering phenomena in high-dimensional settings like tissue biology. Relatedly, this understanding can help guide our design and generation of new data, such as synthetic proteins for drug development. We broadly refer to such AI as <b>data copilots</b>.
   </p>
 
   <p>
-  <b>I am on the industrial job market</b> for ML Research Scientist roles, particularly for Interpretability, AI4Science, AI4Bio, or AI4Med teams. Please feel free to contact me about opportunities!
+  I am extremely fortunate to be co-advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS) and spend much of my time with the <a href="https://hazyresearch.stanford.edu/" target="_blank">Hazy Research group</a> at the <a href="https://ai.stanford.edu/" target="_blank">Stanford AI Lab (SAIL)</a>. My graduate training and research have been graciously funded via the NIH (BD2K, NLM), the Stanford Data Science Institute (<a href="https://datascience.stanford.edu/programs/stanford-data-science-scholars-program" target="_blank">Data Science Scholarship</a>), the International Alliance for Cancer Early Detection (<a href="https://canarycenter.stanford.edu/aced/grants/aced-graduate-fellowship.html" target="_blank">Canary-ACED Graduate Fellowship</a>), and Stanford's <a href="https://hai.stanford.edu/" target="_blank">Institute for Human-Centered Artificial Intelligence (HAI)</a>. Prior to Stanford, I received my undergraduate training in Applied Mathematics and Bioengineering from UC Berkeley. I was born and raised in Columbus, OH.
+  </p>
+
+  <p>
+  <b>I am on the industrial job market</b> for ML Research Scientist roles, particularly for Interpretability/Safety, AI4Science, AI4Bio, or AI4Med teams. Please feel free to contact me about opportunities!
   </p>
     <!-- Through my mentors, my work is also generously supported by various agencies and organizations including the DoD, ARL, DARPA, NASA, NIH, Google, -->
   <p> 
@@ -64,20 +66,23 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="themes">
   <h4>Research Themes</h4>
     <p>
-     <b>My research interests</b> broadly span AI-human collaboration and AI-driven knowledge discovery to augment human capabilties and expand our understanding of the natural world — particularly for the biological sciences and physical systems. This sometimes involves paradigm shifts in engineering to meet the challenges of high-dimensional unstructured data, sparse labels, etc. To realize these goals, I currently work at the intersection of:
+     <b>My research interests</b> broadly span AI-human collaboration and AI-driven knowledge discovery to augment human capabilties and expand our understanding of the natural world — particularly for the biological sciences and physical systems. This sometimes involves paradigm shifts in engineering to meet the challenges of immensely large models, high-dimensional unstructured data (e.g. text corpora, time-series, images, graphs), coarse labels, etc. To realize these goals, my work attempts to span the spectrum of AI4science:
     <ul>
-    <li>Efficient ML for long-range modeling — geometric priors & inductive biases, new forms of convolution and attention, associative memory, etc.</li>
-    <li>Compound AI systems — adapting foundation models (FM) for novel forms of inference & reasoning</li>
-    <li>(Mechanistic) interpretability & explainability — understanding what models have learned or how they function, as well as extracting evidence for decisions</li>
+    <li>Efficient ML for long-range modeling — geometric priors & inductive biases, new forms of convolution and attention, associative memory, etc. in the face of weak supervisory signals</li>
+    <li>Compound AI systems — adapting foundation models (FMs) like LLMs for novel forms of inference & reasoning</li>
+    <li>(Mechanistic) interpretability & explainability — understanding what models have learned or how they function, as well as extracting evidence for model outputs (e.g. finding protein binding sites, shown below)</li>
     <li>Knowledge acqusition — converting our understanding of models to new human knowledge</li>
+    <li>Controlled generation — using human knowledge and evidence as feedback for safe and reliable LLM-driven data generation</li>
     </ul> 
   </p>
   <p>
-    <b>Questions include:</b> How do FMs work internally? How should we probe them to understand their learning mechanisms? And how do these internals provide advanced generation capability? How do we exploit these internals to create new FM capabilities, either innate or equipped? Can we replicate FM internals cheaply for new model design and inference modes? 
+
+
+  <!--   <b>Questions include:</b> How do FMs work internally? How should we probe them to understand their representations and learning mechanisms? And how do these internals provide advanced generation capability? How do we exploit these internals to create new FM capabilities, either innate or equipped? Can we replicate FM internals cheaply for new model design and inference modes? How can we better control LLMs for data generation using AI-substantiated evidence of our desiderata?
   </p>
   <p>
-    <b>And for science:</b> How do FMs reason over long space- or time-horizons? How can we repurpose FMs as “data copilots” to help us understand key actors that distinguish (spatial, temporal, or spatio-temporal) systems from one another? Perhaps to localize binding sites in protein structures (below) or identify cell neighborhoods contributing to aggressive cancers (further below) with minimal supervision. How can we use FMs to inductively learn and teach us invariant patterns in our data, in the search for physical mechanisms and laws?
-  </p>
+    <b>And for science:</b> How do FMs reason over long space- or time-horizons? How can we repurpose FMs to help us understand key actors that distinguish (spatial, temporal, or spatio-temporal) systems from one another? Perhaps to localize binding sites in protein structures (below) or identify cell neighborhoods contributing to aggressive cancers (further below) with minimal supervision. How can we use FMs to inductively learn and teach us invariant patterns in our data, in the search for mechanisms and laws? Can a better understanding of atomic representatiopns lead to better protein generation?
+  </p> -->
    <!-- <br/><br/>
     <br/><br/>
      <br/><br/> -->
@@ -110,7 +115,7 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="research">
   <h4>Thesis Work</h4>
   <p>
-   My thesis work focuses on building data copilots to advance precision oncology: cancer subtyping, treatment planning, and prognostics. Classifying patients (e.g. cancer stage) with high fidelity is important for clinical decision support, but we also require “evidence” behind class decisions. This AI-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in data. My thesis aims to:
+   My thesis work focuses on building data copilots to advance cancer prognostics. Classifying patients (e.g. tumor grade) with high fidelity is of course important for clinical decision support, but we also require “evidence” behind class decisions. Namely, we seek to identify cell neighborhoods contributing to aggressive cancers. This AI-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in data. My thesis aims to: 
     <dl style="PADDING-LEFT: 40px">
     <!-- <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt> -->
     <dt><b>Evaluate feature attribution given partial contexts</b></dt>
@@ -123,7 +128,7 @@ ul li { margin-bottom: 10px; }
     <dt><b> </b></dt>
     <dd> </dd> 
     <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
-    <dt><b>Deploy feature attribution for knowledge discovery</b></dt>
+    <dt><b>Deploy feature attribution for discovery & knowledge acquisition</b></dt>
     <dd>With FMs and scalable feature attribution, we seek to improve cancer subtyping, treatment planning, and prognostics by discovering novel spatial biomarkers of cancer progression in patient biopsies (like the cell graph below). To do this, we are building data copilots for single-cell spatial biology, including proteomics datasets provided by GE Global Research.</dd>
     </dl>
 
@@ -143,15 +148,15 @@ ul li { margin-bottom: 10px; }
   <h4>Preprints & Publications</h4>
   <p>While my thesis research focuses on interpretable and explainable AI in the context of high-dimensional biomedical data, I've been privileged to work in several methods and application domains. <u>A copy of my CV can be found at the bottom of this page.</u> <b>Stay tuned for future publications on:</b> 
   <ol>
-    <li>Multimodal FMs that pass medical board exams</li>
     <li>Data copilots for spatial biology: <i>in silico</i> discovery of biomarkers of cancer progression</li>
     <li>A call to action for verifiable and inductive AI systems in biomedicine</li>
-    <li>A new form of RLHF/DPO that incorporates feature attribution and interpretability — motivated by protein design problems</li>
-    <li>Characterizing agentic workflows involving human- and AI-derived sequential decisions (e.g. chess games, longitudinal data streams in healthcare)</li>
+    <li>A new form of controlled generation that incorporates weak supervision and feature attribution — motivated by chess and protein design</li>
+    <li>A multimodal FMs that passes medical board exams, while only trained on public data</li>
+    <!-- <li>Characterizing agentic workflows involving human- and AI-derived sequential decisions (e.g. chess games, longitudinal data streams in healthcare)</li> -->
     <!-- <li>VLM-driven zero-shot segmentation with long text captions</li> -->
     <!-- <li>Fact-checking multimodal FMs to improve image tagging & retrieval</li> -->
-    <li>Satellite imagery VLMs adapted to predict measures of maternal health & child mortality</li>
-    <li>Satellite imagery VLMs adapted for few-shot detection of human labor trafficking encampments in the Amazon Rainforest</li>
+    <li>Satellite imagery FMs adapted to predict measures of maternal health & child mortality in Earth's remote villages</li>
+    <li>Satellite imagery FMs adapted for few-shot detection of human labor trafficking encampments in the Amazon Rainforest</li>
   </ol> 
 
   <br/><br/>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
