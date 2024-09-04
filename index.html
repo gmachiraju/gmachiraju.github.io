@@ -42,20 +42,16 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My work centers around building <b>data copilots</b> — AI that analyze data to (a) make rational and evidence-based decisions, (b) help us discover and acquire knowledge, and (c) generate new data given our design preferences. I am extremely fortunate to be co-advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS).
+  I am a final year PhD Candidate in Biomedical Informatics at Stanford University's department of Biomedical Data Science. My work centers around building <b>data copilots</b> — AI that augment human capabilities to analyze data, (1) make rational and evidence-based decisions, (2) help us discover and acquire knowledge, and (3) generate new data given our design preferences. I am especially motivated to develop data copilots to understand the natural world, particularly for biological and physical systems. I am extremely fortunate to be co-advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS).
   </p>
 
   <p>
   <b>I am on the industrial job market</b> for ML Research Scientist roles, particularly for Interpretability/Safety, AI4Science, AI4Bio, or AI4Med teams. Please feel free to contact me about opportunities!
   </p>
 
-
   <p> 
-    <b>As a side note:</b> My name is most similarly pronounced as Batman's city of residence, "Gotham" (i.e. <i>GAW-thum</i>). There are many intonation variants for my Sanskrit-originating name across India, but this pronunciation is the closest to the North Indian variant and is the one I go by. I also go by "Machi" if that's easier. 
-    <!-- I also go by "Machi" in some circles. -->
+  <b>My name</b> is most similarly pronounced as Batman's city of residence, "Gotham" (i.e. <i>GAW-thum</i>). There are many intonation variants for my Sanskrit-originating name across India, but this pronunciation is the closest to the North Indian variant and is the one I go by. I also go by "Machi" if that's easier. 
   </p>
-
-
 
 
 
@@ -63,7 +59,7 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="themes">
   <h4>Research Themes</h4>
     <p>
-     <b>My research interests</b> broadly span AI-human collaboration and AI-driven knowledge discovery to augment human capabilties and expand our understanding of the natural world — particularly for the biological sciences and physical systems. This sometimes involves paradigm shifts in engineering to meet the challenges of immensely large models, high-dimensional unstructured data (e.g. text corpora, time-series, images, graphs), coarse labels, etc. To realize these goals, my work attempts to span the spectrum of AI4science:
+     <b>My research interests</b>  This sometimes involves paradigm shifts in engineering to meet the challenges of immensely large models, high-dimensional unstructured data (e.g. text corpora, time-series, images, graphs), coarse labels, etc. To realize these goals, my work attempts to span the spectrum of AI4science:
     <ul>
     <li>Efficient ML for long-range modeling — geometric priors & inductive biases, new forms of convolution and attention, associative memory, etc. in the face of weak supervisory signals</li>
     <li>Compound AI systems — adapting foundation models (FMs) like LLMs for novel forms of inference & reasoning</li>
@@ -78,37 +74,12 @@ ul li { margin-bottom: 10px; }
 
   To augment human understanding, we require AI-substantiated "evidence" for both clinical decision-making and for (re)discovering phenomena in high-dimensional settings like protein function prediction and tissue biology. Relatedly, this understanding can help guide our design and generation of new data, such as synthetic molecules for drug development. 
   </p>
-  <p>
 
-
-  <!--   <b>Questions include:</b> How do FMs work internally? How should we probe them to understand their representations and learning mechanisms? And how do these internals provide advanced generation capability? How do we exploit these internals to create new FM capabilities, either innate or equipped? Can we replicate FM internals cheaply for new model design and inference modes? How can we better control LLMs for data generation using AI-substantiated evidence of our desiderata?
-  </p>
-  <p>
-    <b>And for science:</b> How do FMs reason over long space- or time-horizons? How can we repurpose FMs to help us understand key actors that distinguish (spatial, temporal, or spatio-temporal) systems from one another? Perhaps to localize binding sites in protein structures (below) or identify cell neighborhoods contributing to aggressive cancers (further below) with minimal supervision. How can we use FMs to inductively learn and teach us invariant patterns in our data, in the search for mechanisms and laws? Can a better understanding of atomic representatiopns lead to better protein generation?
-  </p> -->
-   <!-- <br/><br/>
-    <br/><br/>
-     <br/><br/> -->
-  
-  <!-- <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.research_gif }}' height="250" width="250" border="30px"></a></p>
-  <p style="float: right;"><a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.cell-graph}}' height="170" width="170" border="50px"></a></p>
-     -->
     <div class="clearfix">
       <div class="img-container-full">
           <img src="assets/profile-pics/prospect_prot.png" alt="Proteins" style="width:100%">
       </div>
     </div>
-    <!-- <div class="clearfix">
-      <div class="img-container-wide">
-          <img src="/assets/profile-pics/reg005_montage.png" alt="CODEX" style="width:100%">
-      </div>
-      <div class="img-container-wide">
-          <img src="assets/profile-pics/trip_through_channel_space.gif" alt="Channels" style="width:100%">
-      </div>
-    </div> -->
-    <!-- <p>
-      The sciences pose some of the steepest challenges for ML/AI, including high-dimensional unstructured data, sparse labels, and uncertain domain knowledge. These challenges often inspire paradigm shifts in ML methods and, in turn, ML for scientific discovery.
-    </p> -->
 
 </div>
 
@@ -116,24 +87,6 @@ ul li { margin-bottom: 10px; }
 
 
 <div class="docs-section" id="research">
-  <h4>Thesis Work</h4>
-  <p>
-   My thesis work focuses on building data copilots to advance cancer prognostics. Classifying patients (e.g. tumor grade) with high fidelity is of course important for clinical decision support, but we also require “evidence” behind class decisions. Namely, we seek to identify cell neighborhoods contributing to aggressive cancers. This AI-generated evidence is known broadly as <b>feature attribution</b> as it can extract <b>class-specific features/regions</b> captured in data. My thesis aims to: 
-    <dl style="PADDING-LEFT: 40px">
-    <!-- <dt><b>Designing explainability evaluation frameworks for architectural selection</b></dt> -->
-    <dt><b>Evaluate feature attribution given partial contexts</b></dt>
-    <dd>In the realm of high-dimensional data, many ML models today are considered “partial-context” since they are limited by data throughput. Can such models still perform reliable feature attribution? Are some architectures or attribution methods inherently better at locating class-specific regions? We design an evaluation framework for improved architecture + attribution selection [ECCV 22].</dd>
-    <dt><b> </b></dt>
-    <dd> </dd>
-    <!-- <dt><b>Designing inherently interpretable architectures to mine class-specific regions (i.e. data copilots)</b></dt> -->
-    <dt><b>Build performant feature attribution methods for large models & data</b></dt>
-    <dd>We posit that attribution capabilities can be enabled by richer data representations, and thus seek to equip the capability to FMs like LLMs and vision-langauge models (VLMs). To both interface with FMs and operate over high-dimensional unstructured data (e.g. images, graphs, text), we developed interpretable convolutional architectures called "prospector heads" to mine class-specific regions [ICML 23, ICML 24].</dd>
-    <dt><b> </b></dt>
-    <dd> </dd> 
-    <!-- <dt><b>Applications in spatial biology for biomarker discovery</b></dt> -->
-    <dt><b>Deploy feature attribution for discovery & knowledge acquisition</b></dt>
-    <dd>With FMs and scalable feature attribution, we seek to improve cancer subtyping, treatment planning, and prognostics by discovering novel spatial biomarkers of cancer progression in patient biopsies (like the cell graph below). To do this, we are building data copilots for single-cell spatial biology, including proteomics datasets provided by GE Global Research.</dd>
-    </dl>
 
     <div class="clearfix">
       <div class="img-container-full">
