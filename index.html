@@ -93,11 +93,16 @@ ul li { margin-bottom: 10px; }
 
  -->
 
+
+
+
+
+
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Preprints & Publications</h4>
   <p>While my thesis research focuses on interpretable and explainable AI in the context of high-dimensional biomedical data, I've been privileged to work in several methods and application domains. <u>A copy of my CV can be found at the bottom of this page.</u> <b>Stay tuned for future publications on:</b> 
-  <ol>
+  <ul>
     <li>Data copilots for spatial biology: <i>in silico</i> discovery of biomarkers of cancer progression</li>
     <li>A call to action for verifiable and inductive AI systems in biomedicine</li>
     <li>A new form of controlled generation that incorporates weak supervision and feature attribution — motivated by chess and protein design</li>
@@ -107,7 +112,7 @@ ul li { margin-bottom: 10px; }
     <!-- <li>Fact-checking multimodal FMs to improve image tagging & retrieval</li> -->
     <li>Satellite imagery FMs adapted to predict measures of maternal health & child mortality in Earth's remote villages</li>
     <li>Satellite imagery FMs adapted for few-shot detection of human labor trafficking encampments in the Amazon Rainforest</li>
-  </ol> 
+  </ul> 
 
   <br/><br/>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
   <sup>‡</sup> indicates equal contribution.<br/>
@@ -120,6 +125,7 @@ ul li { margin-bottom: 10px; }
   </ul>
 
   <div class="tab-content">
+    
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
@@ -152,7 +158,7 @@ ul li { margin-bottom: 10px; }
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
+   <!--  <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
@@ -181,8 +187,10 @@ ul li { margin-bottom: 10px; }
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div> -->
+
   </div>
+
 </div>
 
 
