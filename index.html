@@ -58,13 +58,15 @@ ul li { margin-bottom: 10px; }
 <div class="docs-section" id="research">
   <h4>Research</h4>
     <p>
-    The three main capabilities we are building for data copilots include:
+    My research focuses on building data copilots, or AI systems that have the following capabilities:
 
     <ol>
-    <li><b>Rational & evidence-based decision-making</b>. Efficient ML for long-range modeling — geometric priors & inductive biases, new forms of convolution and attention, associative memory, etc. in the face of weak supervisory signals. Compound AI systems — adapting foundation models (FMs) like LLMs for novel forms of inference & reasoning. (Mechanistic) interpretability & explainability — understanding what models have learned or how they function, as well as extracting evidence for model outputs (e.g. finding protein binding sites, shown below)</li>
-    <li><b>knowledge discovery & acquisition</b>. Knowledge acqusition — converting our understanding of models to new human knowledge</li>
-    <li><b>Controlled generation</b> — using human knowledge and evidence as feedback for safe and reliable LLM-driven data generation</li>
+    <li><b>Rational & evidence-based decision-making</b> — pinpointing <i>what</i> is important within inputs for a model's outputs (predictions & generations), as well as <i>why and how</i> those outputs were created.
+    <li><b>Knowledge discovery & acquisition</b> — identifying new information and ensuring it is human-comprehensible</li>
+    <li><b>Controlled generation</b> — using human knowledge and preferences for aligned and safe data generation</li>
     </ol> 
+
+     <b>foundation models</b>,Efficient ML for long-range modeling — geometric priors & inductive biases, new forms of convolution and attention, associative memory, etc. in the face of weak supervisory signals. Compound AI systems — adapting foundation models (FMs) like LLMs for novel forms of inference & reasoning. (Mechanistic) interpretability & explainability — understanding what models have learned or how they function, as well as extracting evidence for model outputs (e.g. finding protein binding sites, shown below)</li>
     </p>
 
     <div class="clearfix">
@@ -125,7 +127,7 @@ ul li { margin-bottom: 10px; }
   </ul>
 
   <div class="tab-content">
-    
+
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
@@ -234,7 +236,7 @@ ul li { margin-bottom: 10px; }
   </p> 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
+    <!-- <li><div class="button" data-ref="#projects-all">All</div></li> -->
   </ul>
 
   <div class="tab-content">
