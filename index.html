@@ -68,12 +68,12 @@ ul li { margin-bottom: 10px; }
     My research focuses on building data copilots, or AI systems that have the following interrelated capabilities:
 
     <ol>
-    <li><b>Rational & evidence-based decision-making</b> — pinpointing <i>what</i> is important within inputs for a model's outputs (predictions & generations), as well as <i>why and how</i> those outputs were created
-    <li><b>Knowledge discovery & acquisition</b> — identifying new information and ensuring it is human-comprehensible</li>
-    <li><b>Controlled generation</b> — using human knowledge and preferences for aligned and safe data generation</li>
+    <li><b>Rational & evidence-based decision-making</b> — pinpointing <i>what</i> is important within inputs for a model's outputs (predictions & generations), as well as <i>why and how</i> those outputs were created. Our work has built automated verification systems [ECCV'22] and new equippable architectures that reveal AI evidence and rationale [ICML'24].
+    <li><b>Knowledge discovery & acquisition</b> — identifying new information and ensuring it is human-comprehensible</li>. We have used capability (1) in scientific deployments to discover tumor regions associated with aggressive cancers via spatial proteomics data and single-cell encoders [upcoming preprint]. We are also making deployments in global health, using adapted LLMs to identify covariates of human labor trafficking in the Amazon Rainforest. 
+    <li><b>Controlled generation</b> — using human knowledge and preferences for aligned and safe data generation</li>. Our approaches guide models using weak signals and domain knowlegde, with applications in natural language, chess gameplay, and protein design.
     </ol> 
 
-    I work with <b>foundation models</b> (FMs) spanning multimodal embedding models to autoregressive models (LLMs, agents). We have found success in fostering capabilities (1)-(3) by building <b>compound AI systems</b> that adapt FMs for novel forms of inference & reasoning. Crucially, these systems must be <b>efficient</b> to reason over high-dimensional unstructured data often found in biomedicine. Finally, our methods aim to increase AI <b>interpretability</b> to determine what our AI systems have learned and how they function. My PhD thesis work focused on capabilities (1) and (2) [ECCV'22, ICML'24] and my current work focuses on capability (3).
+    I work with <b>foundation models</b> (FMs) spanning multimodal embedding models to autoregressive models (LLMs, agents). We have found success in fostering capabilities (1)-(3) by building <b>compound AI systems</b> that adapt FMs for novel forms of inference & reasoning. Crucially, these systems must be <b>efficient</b> to reason over high-dimensional unstructured data often found in biomedicine. Finally, our methods aim to increase AI <b>interpretability</b> to determine what our AI systems have learned and how they function. 
     </p>
 
     <div class="clearfix">
@@ -82,6 +82,8 @@ ul li { margin-bottom: 10px; }
       </div>
     </div>
 </div>
+
+<!-- My PhD thesis work focused on capabilities (1) and (2) [ECCV'22, ICML'24] and my current work focuses on capability (3). -->
 
 <!-- We've found that (1-3) are all related. -->
 
@@ -126,7 +128,7 @@ ul li { margin-bottom: 10px; }
   </ul>
 
   <div class="tab-content">
-    
+
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
