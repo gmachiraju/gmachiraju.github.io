@@ -1,33 +1,33 @@
 papers:
   - title: "Grammar Matters: Grammatical Templates Improve Language Model Fine-Tuning for Biomedical Relation Extraction"
-    authors: "Varun Tandon, <b>Gautam Machiraju</b>, Parag Mallick"
+    authors: "Varun Tandon, Gautam Machiraju, Parag Mallick"
     venue: In review.
     selected: y
 
   - title: "Spatial Statistics for Spatial Biology"
-    authors: "Hunter Boyce, <b>Gautam Machiraju</b>, Parag Mallick"
+    authors: "Hunter Boyce, Gautam Machiraju, Parag Mallick"
     venue: In review.
     selected: n
 
   - title: "Prospector Heads: Generalized Feature Attribution for Large Models & Data"
-    authors: "<b>Gautam Machiraju</b>, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
+    authors: "Gautam Machiraju, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
     venue: International Conference on Machine Learning (ICML), 2024
     paper_pdf: https://arxiv.org/abs/2402.11729
     selected: y 
 
   - title: "Prospectors: Leveraging Short Contexts to Mine Salient Objects in High-dimensional Imagery"
-    authors: "<b>Gautam Machiraju</b>, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
+    authors: "Gautam Machiraju, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
     venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
     paper_pdf: "/assets/publications/k2/k2.pdf" 
     selected: y
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
-    authors: "Alexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
+    authors: "Alexander Henry Thieme, Yuanning Zheng, Gautam Machiraju, et al."
     venue: "Nature Medicine (2023)."
     selected: y
 
   - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
-    authors: "<b>Gautam Machiraju</b>, Sylvia Plevritis, Parag Mallick"
+    authors: "Gautam Machiraju, Sylvia Plevritis, Parag Mallick"
     venue: European Conference on Computer Vision (ECCV), 2022.
     selected: y
 
@@ -37,23 +37,23 @@ papers:
     selected: n
 
   - title: "Developing Machine Learning Models to Personalize Care Levels among Emergency Room Patients for Hospital Admission"
-    authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, <b>Gautam Machiraju</b>, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen"
+    authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, Gautam Machiraju, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen"
     venue: "Journal of the American Medical Informatics Association (2021)."
     selected: y
 
   - title: "Small Molecule Property Prediction via Proxy Labeling and Multi-scale Learning"
-    authors: "<b>Gautam Machiraju</b>, Parag Mallick"
+    authors: "Gautam Machiraju, Parag Mallick"
     venue: "Preprint (2021)."
     paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf" 
     selected: n
 
   - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
-    authors: "<b>Gautam Machiraju</b>, Parag Mallick, Hermann Frieboes"
+    authors: "Gautam Machiraju, Parag Mallick, Hermann Frieboes"
     venue: "Nature Scientific Reports (2020)."
     selected: y
 
   - title: "Multi-omics Factorization Illustrates the Added Value of Deep Learning Approaches"
-    authors: "<b>Gautam Machiraju</b>, David Amar, Euan Ashley"
+    authors: "Gautam Machiraju, David Amar, Euan Ashley"
     venue: "Preprint (2019)."
     paper_pdf: http://cs229.stanford.edu/proj2019spr/report/66.pdf
     selected: n
