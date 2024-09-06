@@ -19,7 +19,7 @@ papers:
     authors: "<b>Gautam Machiraju</b>, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
     venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
     paper_pdf: "/assets/publications/k2/k2.pdf" 
-    selected: n
+    selected: y
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
     authors: "Alexander Henry Thieme, Yuanning Zheng, <b>Gautam Machiraju</b>, et al."
