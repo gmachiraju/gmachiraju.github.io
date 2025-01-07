@@ -6,29 +6,32 @@ experiences:
   subtitle: "LLM interpretability & steering for healthcare"
   category: "work"
 
-- place: "Stanford University"
+- place: "Stanford AI Lab (SAIL)"
   time: "2018 - 2024"
   title: "PhD Student"
-  subtitle: "Biomedical Informatics <br/> Data copilots for scientific discovery"
+  subtitle: "Biomedical Informatics <br/> Data copilots for biomedical discovery"
   category: "school"
 
 - place: "IBM Research"
   time: "Summer-Fall 2023"
   title: "Student Researcher"
-  subtitle: "Fact-checking Foundation Models"
+  subtitle: "Fact-checking foundation models"
   category: "work"
 
-# - place: "Canary Center at Stanford"
-#   time: "Sep 2016 - Aug 2018"
-#   title: "Bioinformatics Research Assistant"
-#   subtitle: "Mathematical modeling of tumors, <br/> NLP of biomedical literature, <br/> & anomaly detection in multi-omic time-series"
-#   category: "work"
+- place: "Canary Center at Stanford"
+  time: "Sep 2016 - Aug 2018"
+  title: "Bioinformatics Research Assistant"
+  subtitle: "Mathematical modeling of tumors, <br/> NLP of biomedical literature, <br/> & anomaly detection in multi-omic time-series"
+  category: "work"
 
 - place: "Strateos"
   time: "Summer 2016"
   title: "Bioengineering SDE Intern"
-  subtitle: "Robotic automation: <br/> queueing, optimization, search"
+  subtitle: "Robotic wet-lab automation"
   category: "work"
+
+# : <br/> queueing, optimization, search
+
 
 # - place: "UCB Center for Comp Bio"
 #   time: "Sep 2015 - June 2016"
@@ -57,5 +60,5 @@ experiences:
 - place: "University of California, Berkeley"
   time: "2012 - 2016"
   title: "BA Student"
-  subtitle: "Applied Mathematics <br/> (emphasis in Mathematical Biology) <br/> Minor in Bioengineering"
+  subtitle: "Applied Mathematics (Math-Bio) <br/> Minor in Bioengineering"
   category: "school"
